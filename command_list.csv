@@ -1,0 +1,44 @@
+    1  clear
+    2  git config --global user.name "Kostya Prikhodko"
+    3  git config --global user.email "kostyaprikhodko@gmail.com"
+    4  git clone https://github.com/KostyaPrikhodko/HW_10.git
+    5  cd /c/Users/Папа/Desktop/HW10/HW_10
+    6  touch text_ignore.txt (touch)
+    7  touch text_ignore.txt
+    8  ls -l
+    9  vim .gitignore
+   10  vim .gitignore
+   11  git status
+   12  git add *
+   13  git add
+   14  git add .
+   15  commit
+   16  git status
+   17  git commit -m "First commit"
+   18  git status
+   19* 
+   20  ls -l
+   21  git status
+   22  git add .
+   23  git status
+   24  git commit -m "Second commit"
+   25  git status
+   26  git branch
+   27  git checkout -b  develop
+   28  touch develop_test.txt
+   29  ls -l
+   30  git add .
+   31  git status
+   32  git commit -m "Third commit"
+   33  git status
+   34  vim develop_test.txt
+   35  git status
+   36  git add .
+   37  git status
+   38  git commit -m "Fouth commit"
+   39  git status
+   40  git checkout -b  main
+   41  git checkout main
+   42  git merge develop
+   43  git log
+   44  history > command_list.csv
